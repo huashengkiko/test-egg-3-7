@@ -43,7 +43,7 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --env=${ENV:-prod} --port=${PORT:-8080} --workers=${WORKERS:-4} --title= --require skyapm-egg-require --sw_service_name= --sw_direct_Servers=localhost:11800",
+    "start": "egg-scripts start --env=${ENV:-prod} --port=${PORT:-8080} --workers=${WORKERS:-4} --title= --require skyapm-egg-require --sw_service_name= --sw_direct_Servers=172.168.0.1:10086",
     "stop": "egg-scripts stop --title=",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
